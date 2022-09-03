@@ -5,13 +5,13 @@ import type { AppProps } from 'next/app';
 
 import 'antd/dist/antd.css';
 
-const AppLayout = dynamic(() => import('../components/Layout'), { ssr: false });
+const AppLayout = dynamic(() => import('../components/Layout/Layout'), { ssr: false });
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <AppLayout>
       <Head>
-        <title>NextJs Antdesign Typescript</title>
+        <title>Title Info</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Component {...pageProps} />

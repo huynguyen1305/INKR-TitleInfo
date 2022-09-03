@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.text--regular {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.text--small {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.text--medium {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.h2--medium {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.h4--medium {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.h5--regular {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.h5--medium {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.h5--bold {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  max-width: 960px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1168px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1568px;
+  }
+}

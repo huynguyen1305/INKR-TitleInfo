@@ -1,0 +1,29 @@
+.buttonPrimaryWrapper {
+  background: #ffd60a;
+  border-color: #ffd60a;
+
+  width: fit-content;
+  padding: 5px 16px;
+
+  color: black;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.buttonPrimaryWrapper:hover {
+  background: #ffd60a;
+  border-color: #ffd60a;
+
+  color: black;
+
+  filter: brightness(80%);
+}

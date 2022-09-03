@@ -1,11 +1,9 @@
 import { useRouter } from 'next/router';
 
-const redirectTo = '/menu1';
-
 const Index = () => {
   if (typeof window !== 'undefined') {
     const router = useRouter();
-    router.push(redirectTo);
+    router.push('/');
   }
   return <></>;
 };
@@ -13,7 +11,7 @@ const Index = () => {
 Index.getInitialProps = async ({ ctx }) => {
   if (ctx && ctx.req) {
     ctx.res.statusCode = 302;
-    ctx.res.setHeader('Location', redirectTo);
+    ctx.res.setHeader('Location', '/');
   }
   return { props: '' };
 };

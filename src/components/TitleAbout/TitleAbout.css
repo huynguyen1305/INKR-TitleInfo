@@ -1,0 +1,38 @@
+.about__listImage {
+  display: flex;
+  overflow-x: auto;
+}
+
+.about__listImage::-webkit-scrollbar {
+  display: none;
+}
+
+.listImage__item {
+  width: 80px;
+  height: 126px;
+  margin-right: 8px;
+}
+.fact-key {
+  display: inline-block;
+  width: 90px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.fact-value {
+  margin-left: 8px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
